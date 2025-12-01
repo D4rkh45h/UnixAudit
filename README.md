@@ -14,7 +14,7 @@
 
 # UNIXAUDIT 🔥🛡️
 
-![Logo de UNIXAUDIT](URL_DEL_LOGO_AQUI)
+![Logo de UNIXAUDIT](/unixaudit_logo.png)
 
 **UNIXAUDIT** es una herramienta de auditoría automática para sistemas Unix/Linux.  
 Su objetivo es **detectar configuraciones inseguras, recopilar información del sistema y ejecutar módulos de análisis**, todo desde un **menú centralizado**, con posibilidad de usar *credenciales personalizadas* para módulos que lo requieran.
