@@ -107,7 +107,7 @@ Aquí encontrarás información más detallada sobre el proyecto:
 
 ## Uso
 
-Explica cómo se utiliza tu herramienta. Proporciona ejemplos claros y comandos.
+Como usar esta herramienta.
 
 ```bash
 # Dar permisos de ejecución al lanzador (solo la primera vez)
