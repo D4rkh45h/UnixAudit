@@ -1,3 +1,13 @@
+[![Category](https://img.shields.io/badge/Category-Security-red.svg?style=flat-square)](https://github.com/topics/security)
+[![Type](https://img.shields.io/badge/Type-Privilege_Escalation-orange.svg?style=flat-square)](https://github.com/topics/privilege-escalation)
+[![Function](https://img.shields.io/badge/Function-Linux_Tool-blue.svg?style=flat-square)](https://github.com/topics/linux)
+[![Feature](https://img.shields.io/badge/Feature-Automation-red.svg?style=flat-square)](https://github.com/topics/automation)
+[![Language](https://img.shields.io/badge/Language-Python-informational.svg?style=flat-square)](https://github.com/topics/python)
+[![OS](https://img.shields.io/badge/OS-Linux-lightgrey.svg?style=flat-square)](https://github.com/topics/linux)
+[![Version](https://img.shields.io/badge/Version-1.0-blue.svg?style=flat-square)](https://github.com/D4rkh45h/NombreDeTuRepo/releases)
+[![Developer](https://img.shields.io/badge/Developer-d4rkh45h-brightgreen.svg?style=flat-square)](https://github.com/d4rkh45h)
+
+
 <div align="center">
   <div style="display: inline-flex; align-items: center; gap: 8px; margin-bottom: 25px; padding-top: 10px;">
     <a href="README.md" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; margin-right: 8px;" title="Español">
