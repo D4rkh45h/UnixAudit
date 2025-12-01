@@ -81,15 +81,35 @@ Su objetivo es **detectar configuraciones inseguras, recopilar información del 
 
 ```bash
 UnixAudit/
-├── master_audit.py # Script principal que gestiona el menú y las credenciales
-├── run.sh # Script para ejecutar rápidamente la herramienta
-├── modules/ # Módulos de auditoría independientes
-│ ├── apache_audit.py
-│ ├── ssh_audit.py
-│ ├── cron_root.py
-│ ├── passwords_finder.py
-│ └── ...
-└── README.md # Este archivo
+├── master_audit.py               # Script principal (menú, control, credenciales)
+├── run.sh                        # Lanzador rápido
+├── modules/                      # Módulos de auditoría y enumeración
+│   ├── apache_audit.py
+│   ├── arp_audit.py
+│   ├── autolog_audit.py
+│   ├── bash_history_audit.py
+│   ├── compiladores_audit.py
+│   ├── cron_root.py
+│   ├── cron_system.py
+│   ├── distro_info.py
+│   ├── download_tools_audit.py
+│   ├── kernel_info.py
+│   ├── login_history_audit.py
+│   ├── mounted_partitions_audit.py
+│   ├── netstat_audit.py
+│   ├── password_finder.py
+│   ├── printer_info.py
+│   ├── root_processes.py
+│   ├── services_info.py
+│   ├── shadow_audit.py
+│   ├── ssh_audit.py
+│   ├── ssh_keys_audit.py
+│   ├── startup_services.py
+│   ├── suid_enum.py
+│   ├── suid_sgid_enum.py
+│   ├── world_writable.py
+└── README.md
+
 ```
 ---
 
