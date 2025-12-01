@@ -35,17 +35,17 @@ Su objetivo es **detectar configuraciones inseguras, recopilar información del 
 ### Capturas de Pantalla
 
 <p align="center">
-  <img src="/cap1.png" alt="Captura 1" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  <img src="/cap1.png" alt="Captura 1" style="max-width: 100%; height: auto; display: block; margin: 0 auto;"><br><br><br>
   <em>Vista del menú principal del master_audit.py.</em>
 </p>
 
 <p align="center">
-  <img src="/cap2.png" alt="Captura 2" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  <img src="/cap2.png" alt="Captura 2" style="max-width: 100%; height: auto; display: block; margin: 0 auto;"><br><br><br>
   <em>Ejemplo de un módulo ejecutándose con credenciales.</em>
 </p>
 
 <p align="center">
-  <img src="/cap3.png" alt="Captura 3" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  <img src="/cap3.png" alt="Captura 3" style="max-width: 100%; height: auto; display: block; margin: 0 auto;"><br><br><br>
   <em>Salida de un análisis de auditoría del sistema.</em>
 </p>
 
