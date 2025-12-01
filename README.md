@@ -7,7 +7,7 @@
 [![Version](https://img.shields.io/badge/Version-1.0-blue.svg?style=flat-square)](https://github.com/D4rkh45h/NombreDeTuRepo/releases)
 [![Developer](https://img.shields.io/badge/Developer-d4rkh45h-brightgreen.svg?style=flat-square)](https://github.com/d4rkh45h)
 
-<br><br>
+<br>
 <div align="center">
   <div style="display: inline-flex; align-items: center; gap: 8px; margin-bottom: 25px; padding-top: 10px;">
     <a href="README.md" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; margin-right: 8px;" title="Español">
