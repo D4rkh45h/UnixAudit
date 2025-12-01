@@ -6,6 +6,9 @@
 [![OS](https://img.shields.io/badge/OS-Linux-lightgrey.svg?style=flat-square)](https://github.com/topics/linux)
 [![Version](https://img.shields.io/badge/Version-1.0-blue.svg?style=flat-square)](https://github.com/D4rkh45h/NombreDeTuRepo/releases)
 [![Developer](https://img.shields.io/badge/Developer-d4rkh45h-brightgreen.svg?style=flat-square)](https://github.com/d4rkh45h)
+[![Toolkit](https://img.shields.io/badge/Tool-HackTool-critical.svg?style=flat-square)]()
+[![Privilege](https://img.shields.io/badge/Privilege-Escalation-red.svg?style=flat-square)]()
+[![Audit](https://img.shields.io/badge/Mode-System_Audit-orange.svg?style=flat-square)]()
 
 <br>
 <div align="center">
