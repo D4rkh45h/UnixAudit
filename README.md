@@ -10,8 +10,6 @@
 [![Privilege](https://img.shields.io/badge/Privilege-Escalation-red.svg?style=flat-square)]()
 [![Audit](https://img.shields.io/badge/Mode-System_Audit-orange.svg?style=flat-square)]()
 [![Status](https://img.shields.io/badge/Status-Active-success.svg?style=flat-square)]()
-[![Maintenance](https://img.shields.io/badge/Maintained-Yes-brightgreen.svg?style=flat-square)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Shell](https://img.shields.io/badge/Shell-Bash%20Compatible-grey.svg?style=flat-square)]()
 [![Security](https://img.shields.io/badge/Security-Offensive_Security-black.svg?style=flat-square)](https://github.com/topics/offensive-security)
 [![Pentesting](https://img.shields.io/badge/Purpose-Pentesting-purple.svg?style=flat-square)](https://github.com/topics/pentesting)
