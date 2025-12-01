@@ -12,13 +12,12 @@
   </div>
 </div>
 
-# NombreDeTuHerramienta 🚀
+# UNIXAUDIT 🔥🛡️
 
-![Logo de la Herramienta](URL_DEL_LOGO_DE_TU_HERRAMIENTA_AQUI) 
-<!-- Si no tienes un logo, puedes eliminar la línea anterior o usar un icono genérico. -->
+![Logo de UNIXAUDIT](URL_DEL_LOGO_AQUI)
 
-Una breve descripción de una o dos frases sobre qué hace tu herramienta y para qué sirve.
-Por ejemplo: "Una herramienta de código abierto para automatizar la recopilación de información OSINT de redes sociales."
+**UNIXAUDIT** es una herramienta de auditoría automática para sistemas Unix/Linux.  
+Su objetivo es **detectar configuraciones inseguras, recopilar información del sistema y ejecutar módulos de análisis**, todo desde un **menú centralizado**, con posibilidad de usar *credenciales personalizadas* para módulos que lo requieran.
 
 <h2 align="center">Demostración</h2>
 
@@ -26,49 +25,57 @@ Por ejemplo: "Una herramienta de código abierto para automatizar la recopilaci�
   Aquí puedes ver la herramienta en acción a través de GIFs y capturas de pantalla.
 </p>
 
-### GIF de la Herramienta en Funcionamiento
+### GIF de UNIXAUDIT en funcionamiento
 
 <p align="center">
-  <img src="URL_DE_TU_GIF_AQUI" alt="Demostración en GIF" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-  <em>Una rápida demostración del flujo de trabajo principal de la herramienta, mostrando sus características clave.</em>
+  <img src="URL_DEL_GIF_AQUI" alt="Demostración en GIF" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  <em>Demostración rápida mostrando el menú principal y la ejecución de módulos.</em>
 </p>
 
-### Capturas de Pantalla Clave
+### Capturas de Pantalla
 
 <p align="center">
-  <img src="URL_DE_TU_FOTO_1_AQUI" alt="Captura de pantalla 1" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-  <em>Descripción de lo que se muestra en la primera captura, por ejemplo: "Vista de la interfaz principal con los resultados cargados."</em>
-</p>
-
-<p align="center">
-  <img src="URL_DE_TU_FOTO_2_AQUI" alt="Captura de pantalla 2" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-  <em>Descripción de lo que se muestra en la segunda captura, por ejemplo: "Opciones de configuración y personalización."</em>
+  <img src="URL_CAPTURA_1" alt="Captura 1" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  <em>Vista del menú principal del master_audit.py.</em>
 </p>
 
 <p align="center">
-  <img src="URL_DE_TU_FOTO_3_AQUI" alt="Captura de pantalla 3" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-  <em>Descripción de lo que se muestra en la tercera captura, por ejemplo: "Ejemplo de un informe generado por la herramienta."</em>
+  <img src="URL_CAPTURA_2" alt="Captura 2" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  <em>Ejemplo de un módulo ejecutándose con credenciales.</em>
+</p>
+
+<p align="center">
+  <img src="URL_CAPTURA_3" alt="Captura 3" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  <em>Salida de un análisis de auditoría del sistema.</em>
 </p>
 
 ---
 
 ## Características
 
-*   Lista de las funcionalidades principales de tu herramienta.
-*   Sé conciso pero descriptivo.
-*   Ejemplo: Soporte para múltiples plataformas (Linux, Windows, macOS).
-*   Ejemplo: Interfaz de línea de comandos intuitiva.
-*   Ejemplo: Exportación de resultados a diferentes formatos (CSV, JSON).
+* 🔥 **Ejecución centralizada mediante `master_audit.py`**
+* 🔐 **Soporte para usuario y contraseña opcionales** (si el módulo lo requiere)
+* 🧩 **Sistema modular:** cada análisis es un archivo independiente dentro de `/modules`
+* 🛠️ **Automatiza auditorías comunes de seguridad en Linux**
+* 📄 **Resultados claros en pantalla**
+* ⚡ **Compatible con cualquier distribución Unix/Linux**
+* 🎨 **Interfaz CLI con colores para mayor claridad**
+
+---
 
 ## Estructura del Proyecto
 
-Este repositorio contiene la herramienta **CySortify** y sus archivos asociados.
 ```bash
-Herramienta/
-├── archivo
-├── Archivo
-├── Archivo
-└── Archivo
+UnixAudit/
+├── master_audit.py # Script principal que gestiona el menú y las credenciales
+├── run.sh # Script para ejecutar rápidamente la herramienta
+├── modules/ # Módulos de auditoría independientes
+│ ├── apache_audit.py
+│ ├── ssh_audit.py
+│ ├── cron_root.py
+│ ├── passwords_finder.py
+│ └── ...
+└── README.md # Este archivo
 ```
 ---
 
@@ -89,11 +96,9 @@ Aquí encontrarás información más detallada sobre el proyecto:
 Explica cómo se utiliza tu herramienta. Proporciona ejemplos claros y comandos.
 
 ```bash
-# Para ver las opciones disponibles
-python nombre_del_script_principal.py --help
+# Dar permisos de ejecución al lanzador (solo la primera vez)
+chmod +x run.sh
 
-# Un ejemplo de uso básico
-python nombre_del_script_principal.py --objetivo ejemplo.com --modo escaneo_rápido
+# Ejecutar el lanzador
+./run.sh
 
-# Otro ejemplo
-python nombre_del_script_principal.py --entrada lista_dominios.txt --salida resultados.json
