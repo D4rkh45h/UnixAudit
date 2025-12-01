@@ -28,7 +28,7 @@ Su objetivo es **detectar configuraciones inseguras, recopilar información del 
 ### GIF de UNIXAUDIT en funcionamiento
 
 <p align="center">
-  <img src="URL_DEL_GIF_AQUI" alt="Demostración en GIF" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  <img src="/gif1.gif" alt="Demostración en GIF" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
   <em>Demostración rápida mostrando el menú principal y la ejecución de módulos.</em>
 </p>
 
